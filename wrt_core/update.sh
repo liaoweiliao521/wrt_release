@@ -34,7 +34,6 @@ source "$SCRIPT_DIR/modules/feeds.sh"
 source "$SCRIPT_DIR/modules/packages.sh"
 source "$SCRIPT_DIR/modules/system.sh"
 source "$SCRIPT_DIR/modules/cups.sh"
-source "$SCRIPT_DIR/modules/docker.sh"
 
 
 main() {
@@ -77,7 +76,6 @@ main() {
     fix_rust_compile_error
     update_smartdns
     update_diskman
-    update_dockerman
     set_nginx_default_config
     update_uwsgi_limit_as
     update_argon
