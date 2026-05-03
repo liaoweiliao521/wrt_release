@@ -86,7 +86,6 @@ main() {
     remove_attendedsysupgrade
     fix_kconfig_recursive_dependency
     install_feeds
-    update_docker_stack
     fix_cups_libcups_avahi_depends
     fix_easytier_lua
     update_adguardhome
